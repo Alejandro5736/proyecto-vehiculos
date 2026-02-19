@@ -126,3 +126,13 @@ git branch -M main
 git push -u origin main
 git branch -M main
 git push -u origin main
+cd
+git add .
+git commit -m "Criterio 8: Subida de proyecto final"
+git push -u origin main
+git push https://token-700@github.com/Alejandro5736/proyecto-vehiculos.git main
+git push https://Alejandro5736:token-700@github.com/Alejandro5736/proyecto-vehiculos.git main
+git push https://Alejandro5736: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@github.com/Alejandro5736/proyecto-vehiculos.git main
+docker ps
+docker ps -a
+docker images
