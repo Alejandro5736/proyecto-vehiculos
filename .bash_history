@@ -116,3 +116,13 @@ sudo usermod -aG docker jenkins
 sudo chmod 666 /var/run/docker.sock
 sudo systemctl restart docker
 sudo systemctl restart jenkins
+git rm --cached llave-devops-final.pem
+git init
+git remote add origin https://github.com/Alejandro5736/proyecto-vehiculos.git
+git rm --cached llave-devops-final.pem
+git add .
+git commit -m "Criterio 8: Código listo para Jenkins"
+git branch -M main
+git push -u origin main
+git branch -M main
+git push -u origin main
